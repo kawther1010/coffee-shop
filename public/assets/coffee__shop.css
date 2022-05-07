@@ -1,0 +1,41 @@
+html,body{
+    height: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+.home{
+    background-color: #d0e3e6;
+}
+nav>div>a>h2>b{
+    color: #723326;
+}
+.home__txt{
+    color: #723326;
+}
+.home__btn{
+    font-size: 3vh;
+    padding: 9px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    background-color: #578e91;
+    color: #fff;
+}
+.home>.container>.row>.col-md-6>button>a{
+    color: #fff;
+    text-decoration: none;
+}
+/* The buy ejs style */
+.buy__form{
+    text-align: center;
+}
+input{
+    padding: 5px;
+    width: 70vh;
+}
+.submit__btn{
+    background-color: #578e91;
+    padding: 3px;
+    color: #fff;
+    border: 1px solid #578e92;
+}

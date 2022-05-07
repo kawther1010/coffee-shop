@@ -1,0 +1,22 @@
+{
+  "name": "coffee__shop",
+  "version": "1.0.0",
+  "description": "a coffee shop stor",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon ./app.js",
+    "test" : "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
